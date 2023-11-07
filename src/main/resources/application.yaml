@@ -7,9 +7,10 @@ feign:
         connectTimeout: 1000
         readTimeout: 3000
         loggerLevel: NONE
-      demo-client: # DemoFeignClient?? ??? url prefix ?
+      demo-client: # DemoFeignClient?? ??? Client ?? ?
         connectTimeout: 1000
         readTimeout: 10000
-        loggerLevel: HEADERS # ??? ??? ?? FeignCustomLogger -> Logger.Level logLevel ??? ???
-
-
+        loggerLevel: HEADER  # ??? ??? ?? FeignCustomLogger -> Logger.Level logLevel ??? ???
+#logging:
+#  level:
+#    ROOT: DEBUG
